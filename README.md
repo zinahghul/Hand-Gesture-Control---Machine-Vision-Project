@@ -1,4 +1,5 @@
 🤖 Hand Gesture LED Controller
+
 Control Arduino LEDs using real-time hand gesture detection with MediaPipe and OpenCV.
 
 🔧 Hardware
@@ -11,26 +12,28 @@ Resistors (220–330Ω), Breadboard, Jumper Wires
 Webcam
 
 ✋ Gesture Mapping
-Gesture	Action
+Gesture	LED Action
 Fist	All LEDs OFF
 1 Finger	Red LED ON
 2 Fingers	Yellow LED ON
 3 Fingers	Green LED ON
 Open Hand	All LEDs ON
 🖥️ Setup
+Install dependencies:
+
 bash
 Copy code
 pip install opencv-python mediapipe pyserial
-Upload Arduino sketch
+Upload the Arduino sketch.
 
-Update COM port in script.py
+Update the COM port in handgesturecontrol.py.
 
-Run the Python script
+Run the Python script:
 
 bash
 Copy code
 python handgesturecontrol.py
 📂 Files
-handgesturecontrol.py: Python gesture controller
+handgesturecontrol.py — Python script for gesture recognition
 
-arduino_code.ino: Arduino LED handler
+arduino_code.ino — Arduino sketch for LED control
