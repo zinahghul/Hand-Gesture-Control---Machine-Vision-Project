@@ -1,5 +1,8 @@
 🤖 Hand Gesture LED Controller
 
+
+https://github.com/user-attachments/assets/8458acad-9c12-46c1-903a-9236b5aad50c
+
 Control Arduino LEDs using real-time hand gesture detection with MediaPipe and OpenCV.
 
 🔧 Hardware
